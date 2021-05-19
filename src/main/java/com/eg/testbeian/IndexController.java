@@ -11,9 +11,9 @@ public class IndexController {
     @RequestMapping("/")
     public String index(HttpServletRequest request) {
         String serverName = request.getServerName();
-        if (serverName.equals("java8.icu")) {
+        if (serverName.endsWith("java8.icu")) {
             return "java8.icu";
-        } else if (serverName.equals("itube.work")) {
+        } else if (serverName.endsWith("itube.work")) {
             return "itube.work";
         } else {
             return "java8.icu";
