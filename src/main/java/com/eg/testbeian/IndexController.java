@@ -6,15 +6,19 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import javax.servlet.http.HttpServletRequest;
 
 @Controller
-@RequestMapping("/IndexController")
+@RequestMapping("/")
 public class IndexController {
 
-    @RequestMapping("/index")
+    @RequestMapping("/")
     public String index(HttpServletRequest request) {
-        System.out.println("request.getServerName() = " + request.getServerName());
-        System.out.println("request.getRemoteHost() = " + request.getRemoteHost());
-        return null;
-
+        String serverName = request.getServerName();
+        if (serverName.equals("java8.icu")) {
+            return "java8.icu";
+        } else if (serverName.equals("itube.work")) {
+            return "itube.work";
+        } else {
+            return "java8.icu";
+        }
     }
 
 }
