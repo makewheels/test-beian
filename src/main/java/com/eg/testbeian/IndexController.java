@@ -17,6 +17,8 @@ public class IndexController {
             return "itube.work";
         } else if (serverName.endsWith("videoplus.top")) {
             return "videoplus.top";
+        } else if (serverName.endsWith("shiftcheck.work")) {
+            return "shiftcheck.work";
         } else {
             return "java8.icu";
         }
