@@ -19,6 +19,8 @@ public class IndexController {
             return "videoplus.top";
         } else if (serverName.endsWith("shiftcheck.work")) {
             return "shiftcheck.work";
+        } else if (serverName.endsWith("d-dns.asia")) {
+            return "d-dns.asia";
         } else {
             return "java8.icu";
         }
