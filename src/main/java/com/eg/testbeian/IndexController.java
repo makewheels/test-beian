@@ -19,13 +19,12 @@ public class IndexController {
             return "videoplus.top";
         } else if (serverName.endsWith("shiftcheck.work")) {
             return "shiftcheck.work";
-        } else if (serverName.endsWith("d-dns.asia")) {
-            return "d-dns.asia";
         } else if (serverName.endsWith("a4.fit")) {
             return "a4.fit";
-        } else {
-            return "java8.icu";
+        } else if (serverName.endsWith("pushcenter.cc")) {
+            return "pushcenter.cc";
         }
+        return null;
     }
 
 }
