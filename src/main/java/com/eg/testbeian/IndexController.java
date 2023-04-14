@@ -23,6 +23,8 @@ public class IndexController {
             return "a4.fit";
         } else if (serverName.endsWith("pushcenter.cc")) {
             return "pushcenter.cc";
+        } else if (serverName.endsWith("gpt6.plus")) {
+            return "gpt6.plus";
         }
         return null;
     }
