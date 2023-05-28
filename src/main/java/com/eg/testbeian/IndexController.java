@@ -24,7 +24,7 @@ public class IndexController {
         } else if (serverName.endsWith("gpt6.plus")) {
             return "gpt6.plus";
         }
-        return null;
+        return "a4.fit";
     }
 
 }
