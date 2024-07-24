@@ -1,87 +1,138 @@
 <!DOCTYPE html>
-<html class="fly-html-extend">
+<html lang="zh-CN">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>深夜觅食记</title>
-    <meta name="renderer" content="webkit">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-    <link rel="stylesheet"
-          href="https://production-bucket.oss-cn-beijing.aliyuncs.com/beian/html/dist/font_24081_qs69ykjbea.css">
-    <link rel="stylesheet" href="https://production-bucket.oss-cn-beijing.aliyuncs.com/beian/html/dist/layui.css">
-    <link rel="stylesheet" href="https://production-bucket.oss-cn-beijing.aliyuncs.com/beian/html/dist/global.css">
-    <link rel="stylesheet" href="https://production-bucket.oss-cn-beijing.aliyuncs.com/beian/html/dist/global_1.css">
-
-    <script type="text/javascript"
-            src="https://production-bucket.oss-cn-beijing.aliyuncs.com/beian/html/dist/jquery-1.11.3.min.js"></script>
-    <script src="https://production-bucket.oss-cn-beijing.aliyuncs.com/beian/html/dist/layui.js"></script>
-
-    <style type="text/css">
-        .msg {
-            background: rgba(255, 1);
-            width: 30%;
-            min-width: 300px;
-            margin: auto;
-            border-radius: 5px;
-            padding: 20px;
+    <style>
+        /* 基础样式 */
+        body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
         }
-
-        .layui-select-title input {
-            width: 100% !important
+        header {
+          background-color: #333;
+          color: #fff;
+          padding: 20px;
+          text-align: center;
         }
-
+        nav {
+          background-color: #f2f2f2;
+          padding: 10px;
+          text-align: center;
+        }
+        nav a {
+          color: #333;
+          text-decoration: none;
+          padding: 10px;
+          margin: 5px;
+        }
+        nav a:hover {
+          background-color: #333;
+          color: #fff;
+        }
+        main {
+          padding: 20px;
+        }
+        .article {
+          background-color: #f8f8f8;
+          padding: 20px;
+          margin-bottom: 20px;
+        }
+        .article h2 {
+          margin-top: 0;
+        }
+        footer {
+          background-color: #333;
+          color: #fff;
+          padding: 10px;
+          text-align: center;
+        }
     </style>
-
 </head>
 <body>
-<div class="layui-header header header-extends" style="background-color: #24262F;">
-    <div class="layui-container">
-        <a class="logo">深夜觅食记</a>
-        <div class="layui-form component" lay-filter="LAY-site-header-component"></div>
+<header>
+    <h1>深夜觅食记</h1>
+</header>
+<nav>
+    <a href="#">首页</a>
+    <a href="#">简单美食</a>
+    <a href="#">烹饪技巧</a>
+    <a href="#">关于我们</a>
+</nav>
+<main>
+    <div class="article">
+        <h2>简单快手炒蛋的诀窍</h2>
+        <p>炒蛋是一种简单美味的家常菜,但要做出口感细腻的炒蛋并非易事。以下是我总结的几个小诀窍,希望能帮到大家。</p>
+        <ol>
+            <li>选择新鲜鸡蛋,打散时要充分搅拌均匀。</li>
+            <li>锅要开到中火,加入适量食用油后再倒入蛋液。</li>
+            <li>炒蛋过程中要时刻搅拌,直到蛋液凝固为止。</li>
+            <li>最后可加入一些牛奶或者奶酪提香。</li>
+        </ol>
+        <p>按照这些步骤操作,相信你也能做出美味可口的炒蛋。</p>
     </div>
-</div>
-<div class="fly-extend-banner" style="background-image: url('https://production-bucket.oss-cn-beijing.aliyuncs.com/beian/html/dist/bg.png');">
-    <h1 class="fly-extend-banner-title">Actions speak louder than words.</h1>
-</div>
-
-<ul class="site-idea">
-    <li>
-        <fieldset class="layui-elem-field layui-field-title">
-            <legend>关于个人</legend>
-            <p></p>
-            <center>
-                一个对于"web前端"和"SEO技术"稍有研究的，90后草根站长。
-            </center>
-            <p></p>
-        </fieldset>
-    </li>
-    <li>
-        <fieldset class="layui-elem-field layui-field-title">
-            <legend>个人见解</legend>
-            <p></p>
-            <center>在我认为：不管学习什么东西，一定要有属于自己的“学习方法”和善于“对事物的总结”。</center>
-            <p></p>
-        </fieldset>
-    </li>
-    <li>
-        <fieldset class="layui-elem-field layui-field-title">
-            <legend>谨言</legend>
-            <p></p>
-            <center> 人就得学会感恩，滴水之恩应当涌泉相报。感谢那些曾经帮助过我的人，因为有你们我才会变得如此的优秀。</center>
-            <p></p>
-        </fieldset>
-    </li>
-</ul>
-
-<div class="layui-footer footer footer-index">
-    <div class="layui-main">
-        <p>
-            <a href="http://beian.miit.gov.cn" target="_blank">黑ICP备20001061号-6</a>
-        </p>
+    <div class="article">
+        <h2>五分钟搞定的凉拌黄瓜</h2>
+        <p>夏日里,一盘清爽可口的凉拌黄瓜是再好不过的开胃小菜了。以下是一个超级简单的做法,只需五分钟就能搞定。</p>
+        <ol>
+            <li>将黄瓜洗净后切成薄片。</li>
+            <li>准备酱料:香醋、盐、白糖、辣油、蒜泥等调味料。</li>
+            <li>将黄瓜片放入碗中,加入酱料搅拌均匀。</li>
+            <li>冰镇15分钟后即可。</li>
+        </ol>
+        <p>这道菜不仅营养丰富,而且制作超级简单,是夏季餐桌上的好选择。</p>
     </div>
-</div>
-
+    <div class="article">
+        <h2>鸡蛋煎饼的制作方法</h2>
+        <p>鸡蛋煎饼是一款简单美味的早餐食品,不仅营养丰富,而且制作方法也非常简单。以下是详细的制作步骤,赶快学起来吧!</p>
+        <ol>
+            <li>将鸡蛋打散,加入适量的盐和胡椒粉搅拌均匀。</li>
+            <li>在平底锅中倒入适量的油,待锅底微微冒烟时,将蛋液倒入。</li>
+            <li>煎至底部金黄后,小心将煎饼翻面继续煎至两面俱黄。</li>
+            <li>出锅后可以根据喜好添加各种配料,如培根、芝士、香菜等。</li>
+        </ol>
+        <p>鸡蛋煎饼不仅营养丰富,口感也非常棒,是早餐的绝佳选择。希望以上步骤对你有所帮助。</p>
+    </div>
+    <div class="article">
+        <h2>简单版番茄炒蛋</h2>
+        <p>番茄炒蛋是一道家常菜,简单易做,味道也很棒。下面是我的做法,希望能对你有所帮助。</p>
+        <ol>
+            <li>将番茄洗净切块,鸡蛋打散备用。</li>
+            <li>热锅后放入适量油,倒入打散的鸡蛋,炒至半熟。</li>
+            <li>加入番茄块,适量盐和白糖,继续炒至番茄软烂。</li>
+            <li>最后可以根据喜好加入葱花或香菜点缀。</li>
+        </ol>
+        <p>番茄炒蛋既营养又美味,是很多人的家常菜之一。快来尝试一下吧!</p>
+    </div>
+    <div class="article">
+        <h2>蒜泥白肉的做法</h2>
+        <p>蒜泥白肉是一道经典的川菜,口感鲜嫩可口。以下是我总结的做法,希望能帮到大家。</p>
+        <ol>
+            <li>将五花肉洗净切成薄片。</li>
+            <li>准备蒜泥:将大蒜去皮捣碎,与盐适量搅拌。</li>
+            <li>将肉片与蒜泥混合腌制30分钟。</li>
+            <li>热锅倒入油,将腌好的肉片快炒至变色。</li>
+            <li>最后加入料酒、白糖等调味,炒匀即可。</li>
+        </ol>
+        <p>蒜泥白肉搭配米饭或者白菜非常美味,是不错的家常菜选择。</p>
+    </div>
+    <div class="article">
+        <h2>日式炒面的做法</h2>
+        <p>日式炒面是一种简单又好吃的面食,做法也非常容易上手。下面是详细的做法步骤,欢迎尝试。</p>
+        <ol>
+            <li>准备好面条、青椒、洋葱等食材。</li>
+            <li>先将面条煮熟,沥干水分备用。</li>
+            <li>热锅倒油,先炒香青椒和洋葱。</li>
+            <li>加入面条,淋入酱油、味精等调料,快炒至入味即可。</li>
+            <li>出锅前可以撒上一些香菜提味。</li>
+        </ol>
+        <p>日式炒面口感劲道,营养丰富,是一道不错的简单美食。</p>
+    </div>
+</main>
+<footer>
+    <p><a href="https://beian.miit.gov.cn/">黑ICP备20001061号-6</a></p>
+</footer>
 </body>
 </html>
